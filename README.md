@@ -8,13 +8,6 @@ Akshat Kotwalla
       - [Client](#client)
       - [Server](#server)
       - [Database](#database)
-  * [Configuration and Setup](#configuration-and-setup)
-  * [Troubleshooting](#troubleshooting)
-  * [Author](#author)
-  * [License](#license)
-
-## Introduction
-This is a side project I've been working on. A full stack invoicing application made using the MERN stack (MongoDB, Express, React & Nodejs), specially designed for freelancers and small businesses, but can be used for almost any type of business need. With this application, you can send beautiful invoices, receipts, estimates, quotes, bills etc to your clients. Jump right off the Application and start sending invoice or download the entire and run it on your server.
 
 ## Key Features
 - Send invoices, receipts, estimates, quotations and bills via email
@@ -25,6 +18,7 @@ This is a side project I've been working on. A full stack invoicing application 
 - Record partial payment of invoice.
 - Clean admin dashboard for displaying all invoice statistics including total amount received, total pending, recent payments, total invoice paid, total unpaid and partially paid invoices. 
 - Multiple user registration.
+- Easy Inventory updation using Optical Character Recognisation (OCR)
 - Authentication using jsonwebtoken (jwt) and Google auth
 
 
@@ -42,6 +36,7 @@ This project was created using the following technologies.
 - Cloudinary (to allows users to upload their business logo)
 - Apex Charts (to display payment history)
 - React-google-login (To enable authentication using Google)
+- AWS Textract API
 
 #### Server
 
