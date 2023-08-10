@@ -3,6 +3,24 @@ import mongoose from 'mongoose'
 
 import ClientModel from '../models/ClientModel.js'
 
+
+// export const getClients = async (req, res) => {
+//     const userId = req.body
+
+//     try {
+//         const allClients = await ClientModel.find({userId: userId}).sort({_id:-1}) 
+//         //find({}).sort({_id:-1}) to sort according to date of creation
+
+//         res.status(200).json(allClients)
+
+//     } catch (error) {
+//         res.status(409).json(error.message)
+        
+//     }
+    
+// }
+
+
 export const getClient = async (req, res) => { 
     const { id } = req.params;
 

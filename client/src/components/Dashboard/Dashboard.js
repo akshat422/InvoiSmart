@@ -29,7 +29,8 @@ const Dashboard = () => {
         if(invoices[i].paymentRecords !== undefined) {
             history = [...paymentHistory, invoices[i].paymentRecords]
             paymentHistory = [].concat.apply([], history);
-        }        
+        }
+        
     }
 
 

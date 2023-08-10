@@ -14,8 +14,7 @@ const Footer = () => {
     return (
         <footer>
             <div className={styles.footerText}>
-            ©Akshat Kotwalla  | Made with ♥ in INDIA 
-            </div>
+            ©Akshat Kotwalla  | Made in INDIA</div>
             {user && (
             <FabButton />
             )}

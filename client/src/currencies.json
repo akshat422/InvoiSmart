@@ -1,12 +1,12 @@
 [
             
             {
-                "countryCode": "NG",
-                "label": "Nigeria",
-                "value": "NGN",
+                "countryCode": "IND",
+                "label": "INDIA",
+                "value": "RS",
                 "population": "154000000",
-                "capital": "Abuja",
-                "continentName": "Africa"
+                "capital": "NEW DELHI",
+                "continentName": "ASIA"
             },
             {
                 "countryCode": "AD",

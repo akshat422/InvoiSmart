@@ -68,6 +68,20 @@ export const signup = async (req, res)=> {
 }
 
 
+// export const updateProfile = async (req, res) => {
+//     const formData = req.body
+//     const { id: _id } = req.params
+//     console.log(formData)
+
+//     if(!mongoose.Types.ObjectId.isValid(_id)) return res.status(404).send('No user with this id found')
+
+//     const updatedUser = await User.findByIdAndUpdate(_id, formData, {new: true})
+//     res.json(updatedUser)
+// }
+
+
+
+
 export const forgotPassword = (req,res)=>{
 
     const { email } = req.body

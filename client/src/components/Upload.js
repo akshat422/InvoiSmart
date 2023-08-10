@@ -95,6 +95,8 @@ class Upload extends Component {
   render() {
     const processing = this.state.confirmation;
     return (
+
+      <div className="bodymain">
       <div className="row">
         <div className="col-6 offset-3">
           <Form onSubmit={this.handleSubmit}>
@@ -185,6 +187,7 @@ class Upload extends Component {
           </Form>
         </div>
       </div>
+    </div>
     );
   }
 }

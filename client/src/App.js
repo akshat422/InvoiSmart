@@ -17,7 +17,7 @@ import Header from './components/Header/Header';
 import Settings from './components/Settings/Settings';
 import Forgot from './components/Password/Forgot'
 import Reset from './components/Password/Reset'
-import Upload from './components/Update Inventory/Upload'
+import Upload from './components/Upload';
 
 function App() {
 
@@ -40,7 +40,7 @@ function App() {
           <Route path="/dashboard" exact component={Dashboard} />
           <Route path="/customers" exact component={ClientList} />
           <Route path="/forgot" exact component={Forgot} />
-          <Route path="/uploadInvenory" exact component={Upload} />
+          <Route path="/updateInventory" exact component={Upload} />
           <Route path="/reset/:token" exact component={Reset} />
           <Redirect exact from="/new-invoice" to="/invoice" />
 
