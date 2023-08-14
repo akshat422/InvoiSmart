@@ -34,8 +34,7 @@ export const getProfilesByUser =(searchQuery) => async (dispatch) => {
  
     dispatch({ type: END_LOADING })
   } catch (error) {
-    console.log(error.response)
-    
+    console.log(error.response)    
   }
 }
 
