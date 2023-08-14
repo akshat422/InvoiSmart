@@ -1,6 +1,3 @@
-
-//Copyright (c) 2022 Panshak Solomon
-
 import express from 'express'
 import cors from 'cors'
 import mongoose from 'mongoose'
@@ -19,7 +16,7 @@ import userRoutes from './routes/userRoutes.js'
 
 import profile from './routes/profile.js'
 import pdfTemplate from './documents/index.js'
-// import invoiceTemplate from './documents/invoice.js'
+import invoiceTemplate from './documents/invoice.js'
 import emailTemplate from './documents/email.js'
 
 const app = express()
