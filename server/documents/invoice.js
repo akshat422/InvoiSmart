@@ -128,8 +128,8 @@ img {
 
       <div>
           <p class="title">Bill to:</p>
-          <h4>Panshak Solomon</h4>
-          <p>ipanshak@gmail.com</p>
+          <h4>Akshat Kotwalla</h4>
+          <p>akshat@gmail.com</p>
           <p>+234 803 057 3601</p>
           <p>A.P. Leventis Ornithological Research</p>
           <p>Institute, Jos</p>

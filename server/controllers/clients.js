@@ -33,7 +33,6 @@ export const getClient = async (req, res) => {
     }
 }
 
-
 export const getClients = async (req, res) => {
     const { page } = req.query;
     
